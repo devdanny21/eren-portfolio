@@ -182,8 +182,8 @@ body {
 /* Location badge — pin icon that reveals "Langen Radar" on hover */
 .location-badge {
     position: absolute;
-    top: 130px;
-    left: 22px;
+    top: 135px;
+    left: 375px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -200,8 +200,8 @@ body {
 }
 
 .location-badge .location-icon {
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
     transition: filter 0.2s ease, transform 0.2s ease;
     filter: brightness(0) saturate(100%) invert(78%) sepia(6%) saturate(255%) hue-rotate(179deg) brightness(92%) contrast(87%);
     /* ^ tints a black source icon to #b5bac1 */
